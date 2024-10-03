@@ -33,5 +33,5 @@
 
 ---
 
-[telegram]: https://t.me/HassioHelp
+[telegram]: https://t.me/CanalePaoloCole
 [telegrambadge]: https://img.shields.io/badge/Chat-Telegram-blue?logo=Telegram
