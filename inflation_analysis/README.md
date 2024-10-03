@@ -1,11 +1,7 @@
-## 🖼 Quantitative Analysis 🎨 ##
+## 🖼 Inflation Analysis 🎨 ##
 
-**ITA** Collezione di notebook jupyter con analisi riguardanti la finanza personale <br><br>
-**EN** Jupyter notebooks collections about personal finalcial analysis.
-
-| Notebook | Descrizione |
-| :---: | --- |
-| [Analisi Inflazione](inflation_analysis/README.md) | Analisi dell'effetto dell'inflazione sui rendimenti |
+**ITA** - Analisi dell'effetto dell'inflazione sui rendimenti
+**EN** - Return inflation adjusted Analysis
 
 <br><br>
 
