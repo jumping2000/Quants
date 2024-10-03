@@ -1,7 +1,7 @@
 ## 🖼 Inflation Analysis 🎨 ##
 
-**ITA** - Analisi dell'effetto dell'inflazione sui rendimenti
-**EN** - Return inflation adjusted Analysis
+- **ITA** - Analisi dell'effetto dell'inflazione sui rendimenti
+- **EN** - Return inflation adjusted Analysis
 
 <br><br>
 
