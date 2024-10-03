@@ -1,10 +1,8 @@
 ### Hi there 👋 ![](https://komarev.com/ghpvc/?username=jumping2000&style=flat-square)
 
-📫 How to reach me: 
-
-[![telegrambadge]][telegram]
+📫 Active in: [![telegrambadge]][telegram]
 <br>
-## Quants
+# Quants
 ![GitHub last commit](https://img.shields.io/github/last-commit/jumping2000/Quants)
 ![GitHub Release Date](https://img.shields.io/github/release-date/jumping2000/Quants)
 ![GitHub all releases](https://img.shields.io/github/downloads/jumping2000/Quants/total)
@@ -14,11 +12,23 @@
 ![GitHub](https://img.shields.io/github/license/jumping2000/Quants)
 
 <br>
-<b>Please support my job and give me a star!</b> <a href="https://www.buymeacoffee.com/jumping"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" height="20"></a>
+
+- **ITA** Collezione di notebook jupyter con analisi riguardanti la finanza personale
+- **EN** Jupyter notebooks collection about personal finalcial.
 
 <br>
 
-#<img width = "450" src="elettrodomestici_2023/img/star.png"/>
+| Notebook | Descrizione |
+| :---: | --- |
+| [Analisi Inflazione](inflation_analysis/README.md) | Effetto dell'inflazione sui rendimenti |
+| Work in progress | Correlazione tra diverse asset class|
+| Work in progress | strategia DCA vs Lump Sum |
+
+<br>
+
+**Ti piacciono questi notebooks? Lascia una stella ⭐ su Github e supportami per realizzarne altri!** <a href="https://www.buymeacoffee.com/jumping"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" height="20"></a>
+
+<br>
 
 ---
 
