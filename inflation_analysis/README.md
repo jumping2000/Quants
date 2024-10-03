@@ -1,9 +1,9 @@
 ## 🖼 Inflation Analysis 🎨 ##
 
 - **ITA** - Analisi dell'effetto dell'inflazione sui rendimenti
-- **EN** - Return inflation adjusted Analysis
+- **EN** - Analysis about inflation adjusted returns
 
-<br><br>
+<br>
 
 **Ti piacciono questi notebooks? Lascia una stella ⭐ su Github e supportami per realizzarne altri!** <a href="https://www.buymeacoffee.com/jumping"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" height="20"></a>
 
