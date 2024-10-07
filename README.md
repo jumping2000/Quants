@@ -21,7 +21,7 @@
 | Notebook | Descrizione |
 | :---: | --- |
 | [Analisi Inflazione](inflation_analysis/README.md) | Effetto dell'inflazione sui rendimenti |
-| [Analisi composizione](countries_sectors/README.md) | DAyi su composizione degli ETF iSharee e Vanguard |
+| [Analisi composizione](countries_sectors/README.md) | Dati su composizione degli ETF iShares e Vanguard |
 | Work in progress | Correlazione tra diverse asset class|
 | Work in progress | strategia DCA vs Lump Sum |
 
