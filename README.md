@@ -14,7 +14,7 @@
 <br>
 
 - **ITA** Collezione di notebook jupyter con analisi riguardanti la finanza personale
-- **EN** Jupyter notebooks collection about personal finalcial.
+- **EN** Jupyter notebooks collection about personal finance.
 
 <br>
 
@@ -26,6 +26,15 @@
 | Work in progress | strategia DCA vs Lump Sum |
 
 <br>
+
+## How can I use a Jupyter notebook?
+You can use it with Colab in several ways:
+* Download notebook, load it on Google Drive 
+* Import notebook on Colab from Github
+
+
+![Colab import](images/colab.png)
+
 
 **Ti piacciono questi notebooks? Lascia una stella ⭐ su Github e supportami per realizzarne altri!** <a href="https://www.buymeacoffee.com/jumping"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" height="20"></a>
 
