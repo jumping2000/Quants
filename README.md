@@ -22,7 +22,7 @@
 | :---: | --- |
 | [Analisi effetto inflazione](inflation_analysis/README.md) | Effetto dell'inflazione sui rendimenti |
 | [Analisi composizione ETF](countries_sectors/README.md) | Dati su composizione degli ETF iShares e Vanguard |
-| Work in progress | Correlazione tra diverse asset class|
+| [Correlazione stocks - bonds](correlation/README.md) | Correlazione tra diverse asset class|
 | Work in progress | strategia DCA vs Lump Sum |
 
 <br>
