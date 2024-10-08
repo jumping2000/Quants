@@ -20,10 +20,14 @@
 
 | Notebook | Descrizione |
 | :---: | --- |
-| [Analisi Inflazione](inflation_analysis/README.md) | Effetto dell'inflazione sui rendimenti |
-| [Analisi composizione](countries_sectors/README.md) | Dati su composizione degli ETF iShares e Vanguard |
+| [Analisi effetto inflazione](inflation_analysis/README.md) | Effetto dell'inflazione sui rendimenti |
+| [Analisi composizione ETF](countries_sectors/README.md) | Dati su composizione degli ETF iShares e Vanguard |
 | Work in progress | Correlazione tra diverse asset class|
 | Work in progress | strategia DCA vs Lump Sum |
+
+<br>
+
+**Ti piacciono questi notebooks? Lascia una stella ⭐ su Github e supportami per realizzarne altri!** <a href="https://www.buymeacoffee.com/jumping"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" height="20"></a>
 
 <br>
 
@@ -36,9 +40,7 @@ You can use it with Colab in several ways:
 ![Colab import](images/colab.png)
 
 
-**Ti piacciono questi notebooks? Lascia una stella ⭐ su Github e supportami per realizzarne altri!** <a href="https://www.buymeacoffee.com/jumping"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" height="20"></a>
 
-<br>
 
 ---
 
