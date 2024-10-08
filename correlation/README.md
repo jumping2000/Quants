@@ -1,4 +1,4 @@
-## 🚻 Assets Corerlation 🚨 ##
+## 🚻 Assets Correlation 🚨 ##
 
 - **ITA** - Analisi sulla correlazione tra diverse asset class utilizzando i dati degli ETF presi da Yahoo Finance
 - **EN** - Analysis about ETF/assets correlation
