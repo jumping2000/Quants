@@ -1,4 +1,4 @@
-## 💲 Varie analisi su portafoglio  ##
+## 💲 Analisi su portafoglio e asset 💼 ##
 
 - **ITA**
   - Analisi sulle strategie di investimento PIC e PAC
