@@ -23,7 +23,8 @@
 | [Analisi effetto inflazione](inflation_analysis/README.md) | Effetto dell'inflazione sui rendimenti |
 | [Analisi composizione ETF](countries_sectors/README.md) | Dati su composizione degli ETF iShares e Vanguard |
 | [Correlazione stocks - bonds](correlation/README.md) | Correlazione tra diverse asset class|
-| [PIC vs PAC](portfolio_analysis/README.md) | strategia DCA vs Lump Sum |
+| [PIC vs PAC](portfolio_analysis/README.md) | Strategia DCA vs Lump Sum |
+| [Convessità delle obbligazioni](portfolio_analysis/README.md) | Convessità, duration, rendimento delle obbligazioni |
 
 <br>
 
