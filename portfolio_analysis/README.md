@@ -1,7 +1,11 @@
-## 💲 PIC vs PAC 🏭 ##
+## 💲 Varie analisi su portafoglio  ##
 
-- **ITA** - Analisi sulle strategie di investimento PIC e PAC
-- **EN** - Analysis about Lump Sum Investment and Dollar Cost Averaging
+- **ITA**
+  - Analisi sulle strategie di investimento PIC e PAC
+  - Convessità, duration e rendimento delle obbligazioni
+- **EN**
+  - Analysis about Lump Sum Investment and Dollar Cost Averaging
+  - Convexity, duration and yields of bonds
 
 <br>
 
@@ -13,4 +17,6 @@ Mi trovi anche qui: [![telegrambadge]][telegram]
 [telegram]: https://t.me/CanalePaoloCole
 [telegrambadge]: https://img.shields.io/badge/Chat-Telegram-blue?logo=Telegram
 
-<br>Basate su elaborazioni di vario materiale trovato in rete.
+<br>
+
+***Basate su elaborazioni di vario materiale trovato in rete.***
