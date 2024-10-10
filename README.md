@@ -20,8 +20,8 @@
 
 | Notebook | Descrizione |
 | :---: | --- |
-| [Analisi effetto inflazione](inflation_analysis) | Effetto dell'inflazione sui rendimenti |
-| [Analisi composizione ETF](countries_sectors) | Dati su composizione degli ETF iShares e Vanguard |
+| [Analisi effetto inflazione](inflation_analysis/) | Effetto dell'inflazione sui rendimenti |
+| [Analisi composizione ETF](countries_sectors/) | Dati su composizione degli ETF iShares e Vanguard |
 | [Correlazione stocks - bonds](correlation/) | Correlazione tra diverse asset class|
 | [PIC vs PAC](portfolio_analysis/) | Strategia DCA (PAC) vs Lump Sum (PIC) |
 | [Convessità delle obbligazioni](portfolio_analysis/) | Convessità, duration, rendimento delle obbligazioni |
