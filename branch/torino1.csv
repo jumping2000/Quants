@@ -1,4 +1,4 @@
-Date Hour,AvUtilization(bps),PeakUtilization(bps),AverageDiscards(%),AverageErrors(%),AverageUtilization(bps)_SEC,PeakUtilization(bps)_SEC,AverageDiscards(%)_SEC,AverageErrors %)_SEC
+DateHour,AvUtilization(bps),PeakUtilization(bps),AverageDiscards(%),AverageErrors(%),AverageUtilization(bps)_SEC,PeakUtilization(bps)_SEC,AverageDiscards(%)_SEC,AverageErrors %)_SEC
 03/01/2025 00:00,130549.0,161818.0,0,0,3661.0,6012.0,0,0
 03/01/2025 01:00,142581.0,285946.0,0,0,3636.0,5865.0,0,0
 03/01/2025 02:00,130417.0,162952.0,0,0,3653.0,6041.0,0,0
