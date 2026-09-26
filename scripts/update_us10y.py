@@ -15,7 +15,6 @@ import io
 import os
 import sys
 import time
-from datetime import date, timedelta
 
 import pandas as pd
 import requests
@@ -23,7 +22,6 @@ import requests
 CSV_PATH = os.environ.get("CSV_PATH", "msci_ftse/international_gov_bond_10y_monthly.csv")
 FRED_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
 DGS10_LOCAL = os.environ.get("DGS10_LOCAL")  # solo per test offline
-GRACE_DAYS = 3        # giorni dopo fine mese prima di considerarlo chiuso (lag pubblicazione FRED)
 MATURITY = 10 - 1 / 12
 
 
@@ -50,11 +48,12 @@ def fetch_dgs10() -> pd.Series:
     return df.dropna().set_index("date")["value"].sort_index()
 
 
-def monthly_close(daily: pd.Series, today: date) -> pd.Series:
+def monthly_close(daily: pd.Series) -> pd.Series:
     m = daily.groupby(daily.index.to_period("M")).last()
     m.index = m.index.to_timestamp(how="end").normalize()     # -> ultimo giorno del mese
-    closed = m.index <= pd.Timestamp(today - timedelta(days=GRACE_DAYS))
-    return m[closed]
+    # mese chiuso solo se FRED ha già pubblicato almeno un dato del mese successivo:
+    # garantisce che la chiusura dell'ultimo giorno lavorativo sia disponibile
+    return m[m.index < daily.index.max()]
 
 
 def ret_m(y_prev: float, y: float) -> float:
@@ -71,7 +70,7 @@ def main():
     if last_date != hist["observation_date"].max():
         sys.exit("Esistono righe successive all'ultimo dato US: gestione non prevista, verificare il CSV")
 
-    monthly = monthly_close(fetch_dgs10(), date.today())
+    monthly = monthly_close(fetch_dgs10())
     new = monthly[monthly.index > last_date]
     if new.empty:
         print(f"Nessun nuovo mese chiuso (ultimo nel CSV: {last_date.date()})")
