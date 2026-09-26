@@ -1,0 +1,43 @@
+name: Update US 10Y monthly returns
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"      # ogni lunedì alle 06:00 UTC
+  workflow_dispatch:          # avvio manuale dal tab Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-us10y
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Update CSV
+        env:
+          CSV_PATH: msci_ftse/international_gov_bond_10y_monthly.csv
+        run: python scripts/update_us10y.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add msci_ftse/international_gov_bond_10y_monthly.csv
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica"
+          else
+            git commit -m "data: update US 10Y monthly returns ($(date -u +%Y-%m-%d))"
+            git push
+          fi
